@@ -1,0 +1,15 @@
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore user-specific settings
+*.user
+*.suo
+
+# Ignore compiled executables and logs
+*.exe
+*.pdb
+*.log
+
+# Ignore publish outputs
+/publish/
