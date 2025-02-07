@@ -26,7 +26,7 @@ namespace messenger
                 // MessageBox.Show($"Current Directory Set: {Environment.CurrentDirectory}");
 
                 ApplicationConfiguration.Initialize();
-                Application.Run(new Form1());
+                Application.Run(new MessengerForm());
             }
             catch (Exception ex)
             {

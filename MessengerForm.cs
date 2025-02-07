@@ -7,12 +7,12 @@ using Microsoft.Win32;
 
 namespace messenger
 {
-    public partial class Form1 : Form
+    public partial class MessengerForm : Form
     {
 
         private WebView2 webView;
 
-        public Form1()
+        public MessengerForm()
         {
             InitializeComponent();
 
